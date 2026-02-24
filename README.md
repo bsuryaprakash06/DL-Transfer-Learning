@@ -4,8 +4,7 @@
 To develop an image classification model using transfer learning with VGG19 architecture for the given dataset.
 
 ## Problem Statement and Dataset
-Include the problem statement and Dataset
-
+Detect and classify defects in semiconductor chips using image-based machine learning techniques.
 
 ## Neural Network Model
 <img width="811" height="542" alt="image" src="https://github.com/user-attachments/assets/3d200f54-72c8-48cb-855c-6810da69fe8d" />
