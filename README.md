@@ -6,8 +6,21 @@ To develop an image classification model using transfer learning with VGG19 arch
 ## Problem Statement and Dataset
 Detect and classify defects in semiconductor chips using image-based machine learning techniques.
 
+<img width="407" height="109" alt="image" src="https://github.com/user-attachments/assets/5282082c-31d7-48f5-a652-e655aed64604" />
+
+
 ## Neural Network Model
-<img width="811" height="542" alt="image" src="https://github.com/user-attachments/assets/3d200f54-72c8-48cb-855c-6810da69fe8d" />
+<!-- <img width="811" height="542" alt="image" src="https://github.com/user-attachments/assets/3d200f54-72c8-48cb-855c-6810da69fe8d" /> -->
+| Layer                  | Actual Nodes        | Visual Nodes |
+|-----------------------|---------------------|--------------|
+| Input Layer           | 150528              | 3            |
+| VGG19 Features        | Very Large          | 10           |
+| Deep Features         | Very Large          | 14           |
+| Flatten Layer         | 25088               | 10           |
+| Dense Layer           | 4096                | 5            |
+| Output Layer          | 1                   | 1            |
+<img width="1570" height="880" alt="image" src="https://github.com/user-attachments/assets/8f3f2d7e-e51d-4d89-a60a-fe9ea20b6e9a" />
+
 
 ## DESIGN STEPS
 ## Step 1: Data Loading and Preprocessing
